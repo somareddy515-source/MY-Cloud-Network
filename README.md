@@ -1,38 +1,26 @@
 # MY-Cloud-Network
 
-A starter project for learning and documenting cloud networking concepts in an AI-driven world.
+A personal learning portfolio for documenting cloud networking concepts, hands-on labs, and architecture explorations.
 
-## Overview
-This repository is a simple landing page that organizes notes, architecture ideas, and learning topics around cloud networking, connectivity, security, and automation.
+## About
+This repository is a work in progress and a place to learn in public. The portfolio highlights current areas of study and lab ideas; project cards describe learning goals, not completed production work or professional experience.
 
-## Included
-- A lightweight static website for the project
-- A clean, searchable topic layout for networking concepts
-- A place to add notes, diagrams, and future labs
-
-## Run locally
-Open `index.html` in a browser, or serve the folder with a local HTTP server:
+## View the site
+Open `index.html` in a browser, or start a local server from the repository root:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then visit:
+Then visit <http://localhost:8000>.
 
-```text
-http://localhost:8000
-```
+## Portfolio sections
+- About the learning journey
+- Cloud networking lab ideas and project status
+- Current focus areas: networking fundamentals, cloud architecture, connectivity, security, and observability
+- Link to the GitHub repository
 
-## Suggested topics
-- VPC / subnet design
-- Routing and peering
-- Load balancing
-- Network security groups and firewalls
-- DNS and private access
-- Hybrid connectivity and VPN
-- Observability and troubleshooting
-
-## Next steps
-- Add diagrams and architecture notes
-- Add labs for AWS / Azure / GCP networking
-- Expand with a blog-style notes section
+## Suggested next steps
+- Complete a lab and add its notes, diagrams, and lessons learned
+- Add provider-specific projects as you study AWS, Azure, or Google Cloud
+- Update project statuses to reflect your actual progress
