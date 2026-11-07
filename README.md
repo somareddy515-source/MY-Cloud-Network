@@ -1,26 +1,19 @@
-# MY-Cloud-Network
+# Soma Reddy Bommu — portfolio
 
-A personal learning portfolio for documenting cloud networking concepts, hands-on labs, and architecture explorations.
+A static, one-page portfolio for IT support, help desk, and network technician opportunities. The site uses plain HTML and CSS and is designed to work on GitHub Pages without a build step or external libraries.
 
-## About
-This repository is a work in progress and a place to learn in public. The portfolio highlights current areas of study and lab ideas; project cards describe learning goals, not completed production work or professional experience.
+## Preview
 
-## View the site
-Open `index.html` in a browser, or start a local server from the repository root:
+Open `index.html` directly in a web browser. No Python or other local server is required. You can also use **Code → Download ZIP** in GitHub, extract the archive, and open `index.html` from the extracted folder.
 
-```bash
-python3 -m http.server 8000
-```
+## Publish with GitHub Pages
 
-Then visit <http://localhost:8000>.
+In the repository, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/(root)`, then save. Once Pages finishes publishing, use the URL shown in the Pages settings.
 
-## Portfolio sections
-- About the learning journey
-- Cloud networking lab ideas and project status
-- Current focus areas: networking fundamentals, cloud architecture, connectivity, security, and observability
-- Link to the GitHub repository
+## Files
 
-## Suggested next steps
-- Complete a lab and add its notes, diagrams, and lessons learned
-- Add provider-specific projects as you study AWS, Azure, or Google Cloud
-- Update project statuses to reflect your actual progress
+- `index.html` — portfolio content and semantic page structure
+- `styles.css` — responsive blue-grey theme, light/dark color schemes, and accessible focus styles
+- `script.js` — retained from the earlier version; the new page does not depend on JavaScript
+
+The AWS Solutions Architect – Associate certification is in progress, not earned. AWS labs described on the page are planned, not built yet.
